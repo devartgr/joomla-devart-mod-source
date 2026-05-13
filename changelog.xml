@@ -4,37 +4,75 @@
     <changelog>
         <element>mod_devartsource</element>
         <type>module</type>
-        <version>1.0.8</version>
+        <version>1.0.9</version>
 
         <addition>
-            <item>Added DevArt branded administrator interface.</item>
-            <item>Added administrator logo header inside the Module tab.</item>
-            <item>Added centered DevArt footer with external link.</item>
-            <item>Added Security information section.</item>
-            <item>Added Disclaimer / Limitation of Liability section.</item>
-            <item>Added GitHub update server integration.</item>
+            <item>Added full Joomla 6 native namespace structure</item>
+            <item>Added PSR-4 autoloaded helper architecture</item>
+            <item>Added Joomla target platform declaration for Joomla 6</item>
+            <item>Added PHP minimum requirement metadata (8.2+)</item>
         </addition>
 
         <change>
-            <item>Improved administrator UI consistency and layout.</item>
-            <item>Improved module configuration workflow.</item>
-            <item>Improved compatibility with Gantry and RocketTheme templates.</item>
-            <item>Optimized raw source rendering workflow.</item>
-            <item>Improved module packaging and release structure.</item>
+            <item>Modernized module architecture for Joomla 6 best practices</item>
+            <item>Refactored inline module logic into dedicated helper class</item>
+            <item>Improved long-term maintainability and code organization</item>
+            <item>Improved render mode validation and parameter handling</item>
+            <item>Improved production package consistency and update metadata</item>
+            <item>Clarified trusted administrator-only raw embed usage</item>
         </change>
 
         <fix>
-            <item>Removed duplicate custom Module Style field from the Module tab.</item>
-            <item>Fixed administrator text formatting issues.</item>
-            <item>Fixed Joomla installer manifest validation issues.</item>
-            <item>Fixed module packaging structure for Joomla installer compatibility.</item>
-            <item>Fixed administrator rendering inconsistencies in specific Joomla environments.</item>
+            <item>Added declare(strict_types=1) for stricter PHP type safety</item>
+            <item>Fixed legacy structural limitations from earlier module implementation</item>
+            <item>Fixed Joomla 6 compliance metadata gaps identified during architecture review</item>
         </fix>
 
         <security>
-            <item>Module intended for trusted Super Users and administrators only.</item>
-            <item>No known security vulnerabilities introduced in this release.</item>
-            <item>Existing Joomla ACL and administrator permission checks remain active.</item>
+            <item>Module remains intentionally designed for trusted administrator raw HTML, JavaScript, iframe and widget embedding</item>
+            <item>Raw rendering behavior is preserved by design for administrator-configured trusted code</item>
+            <item>Existing Joomla ACL and administrator permission controls remain active</item>
+        </security>
+
+        <note>
+            <item>This release focuses on Joomla 6 modernization, architecture cleanup and long-term maintainability</item>
+            <item>Recommended update for all users of previous versions</item>
+        </note>
+    </changelog>
+
+    <changelog>
+        <element>mod_devartsource</element>
+        <type>module</type>
+        <version>1.0.8</version>
+
+        <addition>
+            <item>Added DevArt branded administrator interface</item>
+            <item>Added administrator logo header inside the Module tab</item>
+            <item>Added centered DevArt footer with external link</item>
+            <item>Added Security information section</item>
+            <item>Added Disclaimer / Limitation of Liability section</item>
+            <item>Added GitHub update server integration</item>
+        </addition>
+
+        <change>
+            <item>Improved administrator UI consistency and layout</item>
+            <item>Improved module configuration workflow</item>
+            <item>Improved compatibility with Gantry and RocketTheme templates</item>
+            <item>Optimized raw source rendering workflow</item>
+            <item>Improved module packaging and release structure</item>
+        </change>
+
+        <fix>
+            <item>Removed duplicate custom Module Style field from the Module tab</item>
+            <item>Fixed administrator text formatting issues</item>
+            <item>Fixed Joomla installer manifest validation issues</item>
+            <item>Fixed module packaging structure for Joomla installer compatibility</item>
+            <item>Fixed administrator rendering inconsistencies in specific Joomla environments</item>
+        </fix>
+
+        <security>
+            <item>Module intended for trusted Super Users and administrators only</item>
+            <item>Existing Joomla ACL and administrator permission checks remain active</item>
         </security>
     </changelog>
 
@@ -44,18 +82,18 @@
         <version>1.0.0</version>
 
         <addition>
-            <item>Initial public release.</item>
-            <item>Added raw HTML rendering support.</item>
-            <item>Added iframe rendering mode.</item>
-            <item>Added JavaScript and third-party embed support.</item>
-            <item>Added lightweight administrator configuration interface.</item>
-            <item>Added Joomla 6 native module integration.</item>
-            <item>Added Gantry and RocketTheme compatibility support.</item>
+            <item>Initial public release</item>
+            <item>Added raw HTML rendering support</item>
+            <item>Added iframe rendering mode</item>
+            <item>Added JavaScript and third-party embed support</item>
+            <item>Added lightweight administrator configuration interface</item>
+            <item>Added Joomla native module integration</item>
+            <item>Added Gantry and RocketTheme compatibility support</item>
         </addition>
 
         <security>
-            <item>Module access restricted through Joomla administrator permissions.</item>
-            <item>Intended for trusted administrator usage only.</item>
+            <item>Module access restricted through Joomla administrator permissions</item>
+            <item>Intended for trusted administrator usage only</item>
         </security>
     </changelog>
 
