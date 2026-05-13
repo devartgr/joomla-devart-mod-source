@@ -6,15 +6,15 @@
         <element>mod_devartsource</element>
         <type>module</type>
         <client>site</client>
-        <version>1.0.8</version>
+        <version>1.0.9</version>
 
         <infourl title="DevArt Source Module">https://github.com/devartgr/joomla-devart-mod-source</infourl>
 
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/devartgr/joomla-devart-mod-source/releases/download/v1.0.8/mod_devartsource_v1.0.8.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/devartgr/joomla-devart-mod-source/releases/download/v1.0.9/mod_devartsource_v1.0.9.zip</downloadurl>
         </downloads>
 
-        <sha256>c57ae6ac8790ae8f71c8aa7fc17211c585a93d80d67c57796664e3f918e8b8ea</sha256>
+        <sha256>68209ffe78442cfa87f18f1c0cb3a520c3a1f4be18524c979b4833fefc7c64df</sha256>
 
         <changelogurl>https://raw.githubusercontent.com/devartgr/joomla-devart-mod-source/main/changelog.xml</changelogurl>
 
