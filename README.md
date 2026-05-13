@@ -1,27 +1,303 @@
-Lightweight Joomla 6 module for safely embedding raw HTML, iframe, JavaScript and third-party source code blocks directly inside module positions.
+# DevArt Source for Joomla
 
-Designed for high-performance editorial and news websites using modern Joomla workflows.
+![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
+![PHP](https://img.shields.io/badge/PHP-8.2%2B-green)
+![License](https://img.shields.io/badge/License-GPLv3-red)
+![Version](https://img.shields.io/badge/Version-1.0.9-orange)
 
-Perfect for:
+Lightweight Joomla 6 module for embedding trusted raw HTML, iframe, JavaScript and third-party source code directly inside module positions.
+
+Designed for high-performance editorial, news and advanced Joomla websites using modern production workflows.
+
+---
+
+## Latest Release
+
+**Version:** 1.0.9
+
+### Highlights
+
+- Full Joomla 6 modernization
+- Native namespace / PSR-4 architecture
+- Trusted administrator raw embed workflow
+- iframe-only rendering mode
+- GitHub-based Joomla update server
+- PHP 8.2+ strict typing support
+- Lightweight production-ready architecture
+
+---
+
+## Overview
+
+DevArt Source is a lightweight Joomla module designed for trusted administrator use when raw source embedding is required.
+
+It allows administrators to place trusted custom code directly in Joomla module positions without unnecessary frontend overhead.
+
+Ideal for advanced integrations where normal content modules are too restrictive.
+
+---
+
+## Perfect For
+
 - YouTube embeds
 - Glomex players
-- Google Ads / Ad Manager
-- External widgets
-- Custom HTML blocks
+- Google Ads
+- Google Ad Manager
+- Analytics snippets
+- Third-party widgets
 - iframe integrations
+- Custom HTML blocks
 - Tracking scripts
+- Trusted JavaScript embeds
+- External player integrations
 - Advanced source code snippets
 
-Features:
-- Joomla 6 native module
-- Raw source rendering
-- Safe administrator-focused workflow
-- Optional iframe rendering mode
-- Minimal overhead
-- Gantry / RocketTheme compatible
-- Lightweight and production-friendly
-- DevArt branded administrator interface
-- GitHub update server support
+---
 
-Developed by Stathopoulos Kostas – DevArt
+## Features
+
+- Joomla 6 native module
+- Trusted raw HTML rendering
+- JavaScript embedding support
+- iframe embedding support
+- Optional iframe-only rendering mode
+- Optional Joomla content plugin processing
+- Lightweight frontend output
+- Minimal performance overhead
+- No unnecessary frontend libraries
+- DevArt branded administrator interface
+- Security guidance for administrators
+- GitHub-based Joomla Update Server support
+- GPL Open Source
+
+---
+
+## Use Cases
+
+### Advertising
+
+Embed:
+
+- Google Ads
+- Google Ad Manager
+- affiliate widgets
+- ad network scripts
+
+---
+
+### Media
+
+Embed:
+
+- YouTube
+- Vimeo
+- Glomex
+- external players
+- live stream widgets
+
+---
+
+### Analytics / Tracking
+
+Insert trusted:
+
+- analytics scripts
+- conversion tracking
+- remarketing tags
+- custom measurement code
+
+---
+
+### Widgets
+
+Embed:
+
+- weather widgets
+- stock widgets
+- external feeds
+- booking widgets
+- custom HTML tools
+
+---
+
+## Installation
+
+1. Download latest release ZIP
+2. Open Joomla Administrator:
+
+`System → Extensions → Install`
+
+3. Upload:
+
+`mod_devartsource_v1.0.9.zip`
+
+4. Open:
+
+`Content → Site Modules`
+
+5. Create or edit:
+
+`DevArt Source`
+
+---
+
+## Configuration
+
+Main options include:
+
+- Source Code
+- Render Mode
+- Optional content plugin preparation
+- Joomla module assignment
+- Access permissions
+- Caching options
+
+---
+
+## Render Modes
+
+### Raw Mode
+
+Renders trusted administrator-provided code exactly as configured.
+
+Suitable for:
+
+- scripts
+- widgets
+- HTML blocks
+- tracking code
+- embeds
+
+---
+
+### iframe-only Mode
+
+Extracts and renders iframe content only.
+
+Useful when administrators want stricter embed behavior.
+
+---
+
+## Security Notes
+
+DevArt Source is intentionally designed for **trusted administrator use only**.
+
+This module renders administrator-configured source code exactly as provided.
+
+Recommended only for trusted production environments where administrators intentionally embed:
+
+- trusted scripts
+- trusted widgets
+- trusted iframe integrations
+- trusted external code
+
+This is not a frontend user content tool.
+
+---
+
+## Performance
+
+Built for lightweight production use.
+
+Features:
+
+- minimal frontend overhead
+- no CSS framework dependency
+- no JavaScript framework dependency
+- direct rendering workflow
+- Joomla caching compatible
+- CDN friendly
+- Cloudflare friendly
+- Gantry compatible
+- RocketTheme compatible
+
+---
+
+## Requirements
+
+- Joomla 6.x
+- PHP 8.2+
+
+---
+
+## Joomla Native Updates
+
+DevArt Source supports Joomla native updates via GitHub.
+
+Update server:
+
+`https://raw.githubusercontent.com/devartgr/joomla-devart-mod-source/main/update.xml`
+
+After installation:
+
+`System → Extensions → Update`
+
+---
+
+## Current Version
+
+**1.0.9**
+
+---
+
+## Changelog 1.0.9
+
+- Full Joomla 6 modernization
+- Added native namespace architecture
+- Added PSR-4 helper structure
+- Added Joomla target platform metadata
+- Added PHP minimum metadata
+- Added declare(strict_types=1)
+- Improved type safety
+- Improved render mode validation
+- Improved production package consistency
+- Improved trusted administrator security guidance
+
+---
+
+## Compatibility
+
+Supported:
+
+- Joomla 6.x
+- PHP 8.2+
+- Gantry
+- RocketTheme
+- CDN deployments
+- Cloudflare environments
+
+Not supported:
+
+- Joomla 3
+- Joomla 4
+- Joomla 5
+- legacy PHP versions
+
+---
+
+## Developer
+
+**Stathopoulos Kostas – DevArt**  
 https://devart.gr
+
+GitHub Repository:
+
+https://github.com/devartgr/joomla-devart-mod-source
+
+---
+
+## License
+
+GNU General Public License v3 or later
+
+---
+
+## Disclaimer / Limitation of Liability
+
+This software is provided "as is", without warranty of any kind.
+
+DevArt shall not be held liable for any damages, data loss, downtime, security issues, or other problems resulting from the use or misuse of this software.
+
+Users are responsible for testing the software in their own environment and maintaining proper backups before installation or upgrades.
+
+Always test on a staging environment before using in production.
