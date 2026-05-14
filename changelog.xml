@@ -4,6 +4,37 @@
     <changelog>
         <element>mod_devartsource</element>
         <type>module</type>
+        <version>1.0.10</version>
+
+        <fix>
+            <item>Fixed critical frontend fatal error caused by Joomla helper autoload inconsistencies in specific installations</item>
+            <item>Fixed ClassNotFoundError for DevartsourceHelper during frontend module execution</item>
+            <item>Fixed frontend HTTP 500 failures when rendering DevArt Source Module</item>
+            <item>Fixed helper loading reliability by ensuring consistent helper availability during module bootstrap</item>
+        </fix>
+
+        <change>
+            <item>Improved Joomla 6 frontend module loading compatibility</item>
+            <item>Improved production deployment reliability across installations</item>
+            <item>Improved module rendering fault tolerance for frontend execution</item>
+        </change>
+
+        <security>
+            <item>Module remains intentionally designed for trusted administrator raw HTML, JavaScript, iframe and widget embedding</item>
+            <item>Raw rendering behavior is preserved by design for administrator-configured trusted code</item>
+            <item>Existing Joomla ACL and administrator permission controls remain active</item>
+        </security>
+
+        <note>
+            <item>Critical production hotfix release</item>
+            <item>Recommended update for all v1.0.9 installations</item>
+            <item>No rendering behavior or feature changes in this release</item>
+        </note>
+    </changelog>
+
+    <changelog>
+        <element>mod_devartsource</element>
+        <type>module</type>
         <version>1.0.9</version>
 
         <addition>
