@@ -3,7 +3,7 @@
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.2%2B-green)
 ![License](https://img.shields.io/badge/License-GPLv3-red)
-![Version](https://img.shields.io/badge/Version-1.0.9-orange)
+![Version](https://img.shields.io/badge/Version-1.0.10-orange)
 
 Lightweight Joomla 6 module for embedding trusted raw HTML, iframe, JavaScript and third-party source code directly inside module positions.
 
@@ -13,16 +13,17 @@ Designed for high-performance editorial, news and advanced Joomla websites using
 
 ## Latest Release
 
-**Version:** 1.0.9
+**Version:** 1.0.10
 
 ### Highlights
 
-- Full Joomla 6 modernization
-- Native namespace / PSR-4 architecture
+- Critical frontend production hotfix
+- Fixed helper loading reliability
+- Fixed Joomla frontend HTTP 500 issue
 - Trusted administrator raw embed workflow
 - iframe-only rendering mode
 - GitHub-based Joomla update server
-- PHP 8.2+ strict typing support
+- PHP 8.2+ support
 - Lightweight production-ready architecture
 
 ---
@@ -129,7 +130,7 @@ Embed:
 
 3. Upload:
 
-`mod_devartsource_v1.0.9.zip`
+`mod_devartsource_v1.0.10.zip`
 
 4. Open:
 
@@ -236,22 +237,24 @@ After installation:
 
 ## Current Version
 
-**1.0.9**
+**1.0.10**
 
 ---
 
-## Changelog 1.0.9
+## Changelog 1.0.10
 
-- Full Joomla 6 modernization
-- Added native namespace architecture
-- Added PSR-4 helper structure
-- Added Joomla target platform metadata
-- Added PHP minimum metadata
-- Added declare(strict_types=1)
-- Improved type safety
-- Improved render mode validation
-- Improved production package consistency
-- Improved trusted administrator security guidance
+### Fixed
+
+- Fixed critical frontend fatal error caused by Joomla helper autoload inconsistencies
+- Fixed frontend HTTP 500 failures in specific installations
+- Fixed ClassNotFoundError for DevartsourceHelper
+- Fixed helper loading reliability during frontend module execution
+
+### Improved
+
+- Improved Joomla 6 frontend module compatibility
+- Improved production deployment reliability
+- Improved module rendering fault tolerance
 
 ---
 
