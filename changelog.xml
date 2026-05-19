@@ -4,6 +4,38 @@
     <changelog>
         <element>mod_devartsource</element>
         <type>module</type>
+        <version>1.0.11</version>
+
+        <fix>
+            <item>Fixed Joomla Extensions Directory compliance metadata issues reported during review</item>
+            <item>Fixed extension manifest naming to comply with JED reserved naming requirements</item>
+            <item>Added missing author email metadata in XML manifest</item>
+            <item>Added LICENSE.txt manifest file reference for compliance validation</item>
+        </fix>
+
+        <change>
+            <item>Improved XML manifest compatibility for Joomla Extensions Directory validation</item>
+            <item>Improved package consistency for production release distribution</item>
+            <item>Retained Joomla Update Server compatibility for production updates</item>
+        </change>
+
+        <security>
+            <item>Module remains intentionally designed for trusted administrator raw HTML, JavaScript, iframe and widget embedding</item>
+            <item>Raw rendering behavior is preserved by design for administrator-configured trusted code</item>
+            <item>Existing Joomla ACL and administrator permission controls remain active</item>
+        </security>
+
+        <note>
+            <item>Maintenance and compliance release</item>
+            <item>No frontend functionality changes</item>
+            <item>No rendering behavior changes</item>
+            <item>Recommended update for all previous releases</item>
+        </note>
+    </changelog>
+
+    <changelog>
+        <element>mod_devartsource</element>
+        <type>module</type>
         <version>1.0.10</version>
 
         <fix>
