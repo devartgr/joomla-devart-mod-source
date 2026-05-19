@@ -3,7 +3,7 @@
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.2%2B-green)
 ![License](https://img.shields.io/badge/License-GPLv3-red)
-![Version](https://img.shields.io/badge/Version-1.0.10-orange)
+![Version](https://img.shields.io/badge/Version-1.0.11-orange)
 
 Lightweight Joomla 6 module for embedding trusted raw HTML, iframe, JavaScript and third-party source code directly inside module positions.
 
@@ -13,13 +13,12 @@ Designed for high-performance editorial, news and advanced Joomla websites using
 
 ## Latest Release
 
-**Version:** 1.0.10
+**Version:** 1.0.11
 
 ### Highlights
 
-- Critical frontend production hotfix
-- Fixed helper loading reliability
-- Fixed Joomla frontend HTTP 500 issue
+- Joomla Extensions Directory compliance maintenance release
+- Improved package and manifest compatibility
 - Trusted administrator raw embed workflow
 - iframe-only rendering mode
 - GitHub-based Joomla update server
@@ -130,7 +129,7 @@ Embed:
 
 3. Upload:
 
-`mod_devartsource_v1.0.10.zip`
+`mod_devartsource_v1.0.11.zip`
 
 4. Open:
 
@@ -237,24 +236,24 @@ After installation:
 
 ## Current Version
 
-**1.0.10**
+**1.0.11**
 
 ---
 
-## Changelog 1.0.10
+## Changelog 1.0.11
 
 ### Fixed
 
-- Fixed critical frontend fatal error caused by Joomla helper autoload inconsistencies
-- Fixed frontend HTTP 500 failures in specific installations
-- Fixed ClassNotFoundError for DevartsourceHelper
-- Fixed helper loading reliability during frontend module execution
+- Fixed Joomla Extensions Directory compliance metadata issues
+- Fixed extension manifest naming for JED reserved naming rules
+- Added missing author email metadata
+- Added LICENSE.txt manifest reference
 
 ### Improved
 
-- Improved Joomla 6 frontend module compatibility
-- Improved production deployment reliability
-- Improved module rendering fault tolerance
+- Improved XML manifest compatibility
+- Improved release package consistency
+- Retained Joomla native update compatibility
 
 ---
 
@@ -304,3 +303,4 @@ DevArt shall not be held liable for any damages, data loss, downtime, security i
 Users are responsible for testing the software in their own environment and maintaining proper backups before installation or upgrades.
 
 Always test on a staging environment before using in production.
+```
