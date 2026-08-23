@@ -9,6 +9,8 @@ Lightweight Joomla 6 module for embedding trusted raw HTML, iframe, JavaScript a
 
 Designed for high-performance editorial, news and advanced Joomla websites using modern production workflows.
 
+Note: mod_devartsource is now included in DevArt Exts 1.3.0+. The standalone pkg_devartsource package is retired; please use DevArt Exts for updates. Existing module instances are preserved on migration. Do not reinstall the standalone package on Exts-managed sites. 
+
 ---
 
 ## Latest Release
